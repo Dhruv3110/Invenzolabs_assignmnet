@@ -1,0 +1,27 @@
+{
+    "name": "lucrative-projection-app",
+    "version": "1.0.0",
+    "main": "web/index.js",
+    "license": "UNLICENSED",
+    "scripts": {
+        "shopify": "shopify",
+        "build": "shopify app build",
+        "dev": "shopify app dev",
+        "info": "shopify app info",
+        "generate": "shopify app generate",
+        "deploy": "shopify app deploy"
+    },
+    "dependencies": {
+        "axios": "^1.7.7",
+        "cors": "^2.8.5"
+    },
+    "author": "DHRUV GUPTA",
+    "private": true,
+    "workspaces": [
+        "extensions/*",
+        "web",
+        "web/frontend"
+    ],
+    "description": "This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.",
+    "keywords": []
+}
